@@ -1,0 +1,33 @@
+.profile-management {
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  button {
+    margin: 10px !important;
+    padding: 8px 15px;
+    cursor: pointer;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .message {
+    color: green;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form div {
+    margin-bottom: 15px;
+  }
+  
+  form input {
+    padding: 8px;
+    margin-top: 5px;
+    width: 100%;
+  }

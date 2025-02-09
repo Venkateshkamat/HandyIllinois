@@ -1,0 +1,7 @@
+.form input {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    margin: 10px;
+}

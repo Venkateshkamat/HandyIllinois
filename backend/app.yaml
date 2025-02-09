@@ -1,0 +1,9 @@
+runtime: nodejs22
+
+
+env_variables:
+  DB_HOST: cs-411-team-047:us-central1:handyillinois
+  DB_USER: root
+  DB_PASSWORD: test1234
+  DB_NAME: HandyIllinois
+  JWT_SECRET: your-jwt-secret

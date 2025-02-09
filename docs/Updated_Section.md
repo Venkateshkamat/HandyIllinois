@@ -1,0 +1,1 @@
+The creative component section was updated in the revised version of the project proposal pertaining to the comments on stage 1 submission.

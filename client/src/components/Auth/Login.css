@@ -1,0 +1,67 @@
+/* Style for the form container */
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .form input {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    min-width: 100px;
+    margin: 10px 0;
+  }
+  
+  form button[type="submit"] {
+    width: 100%;
+  }
+  
+  /* Additional styles for the other buttons */
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  /* New user and Home buttons space */
+  button + button {
+    margin-top: 10px; /* Adds space between the two buttons */
+  }
+  
+  /* Message styling */
+  p {
+    text-align: center;
+    color: #007bff;
+  }

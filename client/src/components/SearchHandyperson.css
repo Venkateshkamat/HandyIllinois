@@ -1,0 +1,80 @@
+/* Main search container */
+.search-handyperson {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Title */
+.search-handyperson .title {
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Filters container (aligns filters horizontally) */
+.filters-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-items: center;
+}
+
+/* Skills Dropdown */
+.search-handyperson select,
+.search-handyperson input[type="range"] {
+  margin: 5px 0;
+  padding: 8px;
+  width: 200px;
+  box-sizing: border-box;
+}
+
+/* Button Styling */
+.search-handyperson button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  min-width: 100px;
+  margin-left: 10px;
+}
+
+/* Button Hover Effects */
+.search-handyperson button:hover {
+  background-color: #0056b3;
+}
+
+/* Error Message Styling */
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+/* Label Styling */
+.search-handyperson label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .filters-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .search-handyperson button {
+    width: 100%;
+    margin-left: 0;
+  }
+}

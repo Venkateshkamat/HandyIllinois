@@ -1,0 +1,164 @@
+/* General styling for the Bookings page */
+.bookings {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.bookings h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Button styles for switching between ongoing and past bookings */
+.bookings button {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.bookings button:hover {
+  background-color: #0056b3;
+}
+
+.bookings button:focus {
+  outline: none;
+}
+
+/* Style for error message */
+.error {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* List of bookings */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+li h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+li p {
+  font-size: 1rem;
+  margin: 5px 0;
+  color: #555;
+}
+
+li p strong {
+  color: #333;
+}
+
+/* Button styles inside the booking item */
+button {
+  padding: 10px 15px;
+  background-color: #ff5722; /* Red for Cancel */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e64a19;
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Review section styling */
+div > h4 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+input[type="number"] {
+  /* width: auto; */
+  max-width: 150px;
+}
+
+textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Submit Review button */
+button[type="button"] {
+  padding: 10px 20px;
+  background-color: #4caf50; /* Green for submit */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="button"]:hover {
+  background-color: #388e3c;
+}
+
+/* Loading text */
+p {
+  text-align: left;
+  font-size: 1.2rem;
+  color: #007bff;
+}
+
+/* Responsiveness for mobile view */
+@media (max-width: 768px) {
+  .bookings {
+    padding: 15px;
+  }
+
+  button {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+
+  input,
+  textarea {
+    font-size: 0.9rem;
+  }
+}

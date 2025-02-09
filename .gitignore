@@ -1,0 +1,85 @@
+# Node.js dependencies
+**/node_modules/
+
+# Build output
+/dist/
+/build/
+/public/
+
+# Environment variables
+*.env
+.env.local
+.env.*.local
+
+# IDEs and text editors
+.vscode/
+/.idea/
+/*.sublime-project
+/*.sublime-workspace
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+jspm_packages/
+
+# Temporary files
+*.swp
+*.swo
+*.bak
+
+# .env files used by various frameworks (React, etc.)
+.envrc
+
+# Coverage output
+/coverage/
+
+# Next.js build output
+.next/
+
+# Mac system files
+.AppleDouble
+.LSOverride
+
+# Windows Installer files
+Thumbs.db
+ehthumbs.db
+
+# Android Studio/Gradle files
+.gradle/
+local.properties
+
+# JetBrains IDE files
+.idea/
+
+# Ruby files (if you are working with Ruby)
+*.gem
+*.rbc
+/.bundle/
+/vendor/
+
+# Python files (if you are working with Python)
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Log files
+*.log
+
+# React Native
+.expo/
+
+# Other files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage directory used by tools like istanbul
+coverage/

@@ -1,0 +1,49 @@
+/* Navbar Container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2A5D84;  /* Blue background */
+  color: white;
+  padding: 15px 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo Styling */
+.navbar .logo {
+  font-size: 1.8em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #FF6F20; /* Orange color */
+  text-transform: uppercase;
+}
+
+/* Button container */
+.navbar-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+/* Button Styling */
+.navbar-buttons button {
+  background-color: #FF6F20;  /* Orange */
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  font-size: 1em;
+  border-radius: 50px;  /* Fully rounded buttons */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  text-transform: uppercase;
+}
+
+/* Button hover effects */
+.navbar-buttons button:hover {
+  background-color: #e05a1e;  /* Darker orange */
+  transform: scale(1.05);
+}
+
+/* Button active state (when clicked) */
+.navbar-buttons button:active {
+  transform: scale(0.98);
+}

@@ -1,0 +1,86 @@
+/* Container for the Handyman Cards */
+.handyman-cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  justify-items: center;
+}
+
+/* Style for each Handyman card */
+.handyman-card {
+  background-color: #e0f7fa; /* Light blue background */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 350px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 2px; /* 2px padding around the card */
+}
+
+/* Hover effect for the card */
+.handyman-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Profile Image Styling */
+.profile-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 2px solid #f1f1f1;
+}
+
+/* Handyman Details */
+.handyman-details {
+  padding: 20px 15px 10px 15px; /* Increased top padding, decreased bottom padding */
+}
+
+.handyman-details h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.handyman-details p {
+  font-size: 1rem;
+  margin: 5px 0;
+  color: #555;
+}
+
+.handyman-details strong {
+  color: #333;
+}
+
+/* "View Profile" button */
+.handyman-details button {
+  padding: 10px 20px;
+  background-color: #ff5722; /* Orange background */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 15px; /* Move the button downward */
+}
+
+/* Button hover effect */
+.handyman-details button:hover {
+  background-color: #e64a19; /* Darker orange on hover */
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .handyman-cards-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .handyman-cards-container {
+    grid-template-columns: 1fr;
+  }
+}
